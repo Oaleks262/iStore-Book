@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
     <title>iStoreBook</title>
 </head>
 <body>
     <header>
-        <div>
+        <div class="header-div">
             <h2>
                 <span>iStoreBook</span>/Zvirych O
             </h2>
         </div>
         <nav>
-            <a href="#"><img src="../../img/icon/cart.svg" alt="cart"></a>
-            <a href="#">Sing-Out</a>
-            <div>
+            <a class="cart" href="#"><img src="../../img/icon/cart.svg" alt="cart"></a>
+            <a class="exit" href="../../index.html">Sing-Out</a>
+            <div class="profile">
                 <a href="#">
                     <img src="../../img/icon/avatar.png" alt="avatar">
                     <h2>UserName</h2>
@@ -26,33 +26,33 @@
     </header>
     <main>
         <section>
-            <div>
-                <img src="#" alt="">
+            <div class="section-img">
+                <img src="../../img/books/git_for_teams.jpg" alt="">
                 <p>Book description</p>
             </div>
-            <div>
-                <h3></h3>
-                <p></p>
-                <p></p>
-                <p></p>
+            <div class="section-text">
+                <h3>Version Control with Git, 3rd Edition</h3>
+                <p>Prem Kumar Ponuthorai, Jon Loeliger</p>
+                <p>Beginner</p>
+                <p>"frontend","git"</p>
             </div>
-            <div>
-                <div>
-                    <div>
-                        <p></p>
-                        <p></p>
+            <div class="section-price">
+                <div class="price-section">
+                    <div class="price-contriner">
+                        <p>Price, $</p>
+                        <p>150</p>
                     </div>
-                    <div>
-                        <p></p>
-                        <input type="number" name="QuantityBook" id="QuantityBook">
+                    <div class="count-conteiner"> 
+                        <p>Count</p>
+                        <input type="number" name="QuantityBook" value="1" id="QuantityBook">
                     </div>
-                    <div>
-                        <p></p>
-                        <p></p>
+                    <div class="total-conteiner">
+                        <p>Total price</p>
+                        <p> 150</p>
                     </div>
                 </div>
-                <div>
-                    <a href="">Add to cart</a>
+                <div class="button-section">
+                    <a href="../cart/index.html">Add to cart</a>
                 </div>
             </div>
         </section>
